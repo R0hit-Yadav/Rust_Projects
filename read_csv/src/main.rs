@@ -1,4 +1,4 @@
-use std::{error::Error, result};
+use std::error::Error;
 use csv::Reader;
 fn main()->Result<(), Box<dyn Error>> {
 
