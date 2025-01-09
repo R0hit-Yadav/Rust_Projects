@@ -19,17 +19,15 @@ fn main()->Result<(), Box<dyn Error>> {
         //     count=count+1;
         // }
 
-        if record[8].to_string() == "usa"
+        if record[8].to_string() == "japan"
         {
-            println!("Car From USA {}",record[0].to_string());
+            println!("Car From Japan {}",record[0].to_string());
             count=count+1;
         }
     }
     println!("Total Records are {}",count);
-    
 
     Ok(())
-
 
 }
 
