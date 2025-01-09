@@ -26,6 +26,7 @@ fn main()->Result<(), Box<dyn Error>> {
         }
     }
     println!("Total Records are {}",count);
+    
 
     Ok(())
 }
